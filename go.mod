@@ -45,7 +45,7 @@ require (
 	github.com/hashicorp/memberlist v0.3.1
 	github.com/jpillora/backoff v1.0.0
 	github.com/json-iterator/go v1.1.12
-	github.com/klauspost/compress v1.15.8
+	github.com/klauspost/compress v1.18.7
 	github.com/leanovate/gopter v0.2.9
 	github.com/lightstep/lightstep-tracer-go v0.25.0
 	github.com/lovoo/gcloud-opentracing v0.3.0
@@ -259,4 +259,4 @@ replace (
 	k8s.io/klog/v2 => github.com/simonpasquier/klog-gokit/v3 v3.0.0
 )
 
-go 1.17
+go 1.24
